@@ -1,0 +1,30 @@
+.contact 
+{
+    display: flex;
+    background: $secondary-background;
+    
+    header 
+    {
+        color: $white;
+        font-family: $secondary-font;
+        margin: 0px 50px;
+    }
+
+    form 
+    {
+        display: flex;
+        color: $white;
+
+        input 
+        {
+            width: 400px;
+        }
+
+        button 
+        {
+            height: 50px;
+            margin-top: 25px;
+            margin-left: 50px;
+        }
+    }
+}

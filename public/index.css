@@ -1,0 +1,349 @@
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+.default-font {
+  color: #354a52 !important;
+}
+
+.blue-line {
+  width: 50px;
+  height: 2px;
+  background: #61f9eb;
+  border: none;
+  margin: 0px;
+}
+
+.button-default {
+  z-index: 1;
+  width: 150px;
+  font-size: 16px;
+  background-color: #55ffc7;
+  border-radius: 5px;
+  padding: 12px 26px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  margin: 0 auto;
+  outline: none;
+}
+
+.default-background {
+  background-color: #55ffc7 !important;
+}
+
+.pink {
+  background-color: #fb3373 !important;
+}
+
+.marron {
+  background-color: #5f5c58 !important;
+}
+
+.blue {
+  background-color: #61f9eb !important;
+}
+
+.full-width {
+  margin: 0px !important;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  color: #354a52;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.line-center {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 75px;
+  background-color: #182631;
+  padding-bottom: 15px;
+}
+footer h1 {
+  font-size: 25px;
+  color: #fff;
+}
+footer p {
+  margin: 0px;
+  color: #fff;
+}
+
+.main-navbar {
+  background-color: #fff;
+  padding: 10px 75px;
+  font-size: 20px;
+}
+
+.homepage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background: url("../image/engineer-4915787_1920.jpg");
+  background-position: center;
+  height: 500px;
+}
+.homepage header {
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+}
+.homepage::before {
+  z-index: 0;
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.2;
+}
+
+.service {
+  margin: 75px 0px;
+}
+.service-article {
+  display: flex;
+  flex-direction: column;
+  font-family: "Noto Sans", sans-serif;
+}
+.service-article i {
+  font-size: 40px;
+  color: #55ffc7;
+  text-align: center;
+}
+.service-article h1 {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 10px 0px;
+  color: #354a52;
+}
+.service-article p {
+  color: #60858d;
+}
+
+.aboutus {
+  padding: 15px;
+  background: #f6f8f7;
+  position: relative;
+}
+.aboutus-1 header {
+  font-weight: bold;
+  font-size: 30px;
+  color: #354a52;
+}
+.aboutus-1 p {
+  position: relative;
+  margin-top: 20px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  padding: 15px;
+  background: #fff;
+  z-index: 1;
+  color: #60858d;
+  width: 300px;
+}
+.aboutus-1 img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 0;
+  max-width: 60%;
+}
+.aboutus-2 {
+  color: #fff;
+  background: #61f9eb;
+  height: 50%;
+  padding: 20px;
+}
+.aboutus-2 header {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.offer {
+  display: flex;
+  padding: 0px;
+}
+.offer img {
+  max-width: 50%;
+}
+.offer.invert {
+  flex-direction: row-reverse;
+}
+.offer-details {
+  text-align: center;
+  position: relative;
+  padding: 15px;
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  width: 50%;
+}
+.offer-details.no-reverse.default-background::before {
+  z-index: 0;
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  top: 50%;
+  right: -20px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #55ffc7;
+}
+.offer-details.no-reverse.marron::before {
+  z-index: 0;
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  top: 50%;
+  right: -20px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #5f5c58;
+}
+.offer-details.reverse.pink::before {
+  z-index: 0;
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  top: 50%;
+  left: -20px;
+  border-bottom: 20px solid transparent;
+  border-top: 20px solid transparent;
+  border-right: 20px solid #fb3373;
+}
+.offer-details.reverse.blue::before {
+  z-index: 0;
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  top: 50%;
+  left: -20px;
+  border-bottom: 20px solid transparent;
+  border-top: 20px solid transparent;
+  border-right: 20px solid #61f9eb;
+}
+.offer-details header {
+  font-weight: bold;
+}
+
+#part4 {
+  margin-top: 50px;
+}
+
+.item {
+  display: flex;
+  background: #182631;
+  padding: 100px;
+}
+.item-description header {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+.item-description p {
+  color: #fff;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.item-panel {
+  display: flex;
+  width: 500px;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+.item-panel .active i {
+  color: #55ffc7 !important;
+}
+.item-panel i {
+  font-size: 50px;
+  color: #182631;
+}
+
+.convaic {
+  background: #f6f8f7;
+  text-align: center;
+  padding: 75px;
+}
+.convaic h1 {
+  border: 2px solid #182631;
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contact {
+  display: flex;
+  background: #182631;
+}
+.contact header {
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  margin: 0px 50px;
+}
+.contact form {
+  display: flex;
+  color: #fff;
+}
+.contact form input {
+  width: 400px;
+}
+.contact form button {
+  height: 50px;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.device form {
+  width: 60%;
+  margin: 0 auto;
+  color: #fff;
+  padding: 50px;
+  background: #182631;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.price {
+  background: #f6f8f7;
+  padding: 50px 0px;
+}
+.price-item {
+  background: #fff;
+  text-align: center;
+}
+.price-item h1 {
+  margin: 0 auto;
+  background-color: #61f9eb;
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+  width: 200px;
+}
+
+/*# sourceMappingURL=index.css.map */

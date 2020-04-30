@@ -1,0 +1,93 @@
+body
+{
+    font-family: $primary-font;
+    overflow-x: hidden;
+}
+
+.default-font
+{
+    color: $font-colors !important;
+}
+
+.blue-line 
+{
+    width: 50px;
+    height: 2px;
+    background: $fouth-color;
+    border: none;
+    margin: 0px;
+}
+
+.button-default
+{
+    z-index: 1;
+    width: 150px;
+    font-size: 16px;
+    background-color: $primary-color;
+    border-radius: 5px;
+    padding: 12px 26px;
+    color: $white;
+    font-weight: bold;
+    border: none;
+    margin: 0 auto;
+    outline: none;
+}
+
+.default-background 
+{
+    background-color: $primary-color !important;
+}
+
+.pink 
+{
+    background-color: $secondary-color !important;
+}
+
+.marron 
+{
+    background-color: $third-color !important;
+}
+
+.blue 
+{
+    background-color: $fouth-color !important;
+}
+
+.full-width 
+{
+    margin: 0px !important;
+    width: 100%;
+}
+
+.title
+{
+    text-align: center;
+    font-weight: bold;
+    color: $font-colors;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.line-center
+{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+footer 
+{
+    text-align: center;
+    margin-top: 75px;
+    background-color: $secondary-background;
+    padding-bottom: 15px;
+    h1 
+    {
+        font-size: 25px;
+        color: $white;
+    }
+    p 
+    {
+        margin: 0px;
+        color: $white;
+    }
+}

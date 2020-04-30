@@ -1,0 +1,68 @@
+#part4 
+{
+    margin-top: 50px;
+}
+
+.item 
+{
+    display: flex;
+    background: $secondary-background;
+    padding: 100px;
+
+    &-description 
+    {
+        header 
+        {
+            font-size: 40px;
+            font-weight: bold;
+            color: $white;
+        }
+
+        p 
+        {
+            color: $white;
+            font-size: 25px;
+            margin-right: 10px;
+        }
+    }
+
+    &-panel 
+    {
+        display: flex;
+        width: 500px;
+        margin: 0 auto;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 25px;
+
+        .active 
+        {
+            i 
+            {
+                color: $primary-color !important;
+            }
+        }
+
+        i 
+        {
+            font-size: 50px;
+            color: $secondary-background;
+        }
+    }
+}
+
+.convaic
+{
+    background: $primary-backgroung;
+    text-align: center;
+    padding: 75px;
+
+    h1 
+    {
+        border: 2px solid $secondary-background;
+        width: 400px;
+        margin: 0 auto;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+}

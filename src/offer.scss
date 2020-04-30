@@ -1,0 +1,69 @@
+.offer 
+{
+    display: flex;
+    padding: 0px;
+    img 
+    {
+        max-width: 50%;
+    }
+
+    &.invert 
+    {
+        flex-direction: row-reverse;
+    }
+
+    &-details 
+    {
+        text-align: center;
+        position: relative; 
+        padding: 15px;
+        color: $white;
+        font-family: $secondary-font;
+        width: 50%;    
+
+        &.no-reverse 
+        {
+            &.default-background
+            {
+                @include create-triangle {
+                    top: 50%;
+                    right: -20px;
+                    @include triangle-point-rigth($primary-color , 20px , 20px)
+                }
+            }
+            &.marron 
+            {
+                @include create-triangle {
+                    top: 50%;
+                    right: -20px;
+                    @include triangle-point-rigth($third-color , 20px , 20px)
+                }
+            }
+        }
+        &.reverse 
+        {
+            &.pink 
+            {
+                @include create-triangle {
+                    top: 50%;
+                    left: -20px;
+                    @include triangle-point-left($secondary-color, 20px , 20px)
+                }
+            }
+
+            &.blue 
+            {
+                @include create-triangle {
+                    top: 50%;
+                    left: -20px;
+                    @include triangle-point-left($fouth-color, 20px , 20px)
+                }      
+            }
+        }
+
+        header 
+        {
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@mixin create-triangle {
+    &::before
+    {
+        z-index: 0;
+        content: " ";
+        position: absolute;
+        width: 0; 
+        height: 0;
+        border: 0 solid transparent;
+        @content ;
+    }
+}
+
+@mixin triangle-point-rigth ($color , $dimension , $fund) {
+    border-top: $dimension solid transparent;
+    border-bottom: $dimension solid transparent;
+    border-left: $fund solid $color;
+}
+
+@mixin triangle-point-left ($color , $dimension , $fund) {
+    border-bottom: $dimension  solid transparent;
+    border-top: $dimension  solid transparent;
+    border-right: $fund solid $color;
+}
+ 
+@mixin triangle-point-top ($color , $dimension , $fund) {
+    border-left: $dimension  solid transparent;
+    border-right: $dimension  solid transparent;
+    border-bottom: $fund solid $color;
+}
+
+@mixin triangle-point-bottom ($color , $dimension , $fund) {
+    border-left: $dimension solid transparent;
+    border-right: $dimension solid transparent;
+    border-top: $fund solid $color;
+}

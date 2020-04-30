@@ -1,0 +1,31 @@
+.service
+{
+    margin: 75px 0px;
+    &-article
+    {
+        display: flex;
+        flex-direction: column;
+        font-family: $secondary-font;
+    
+        i
+        {
+            font-size: 40px;
+            color: $primary-color;
+            text-align: center;
+        }
+    
+        h1 
+        {
+            
+            font-weight: bold;
+            font-size: 30px;
+            margin: 10px 0px;
+            color:$font-colors ;
+        }
+    
+        p 
+        {
+            color: $secondary-font-color;
+        }
+    }  
+}

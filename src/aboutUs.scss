@@ -1,0 +1,52 @@
+.aboutus
+{
+    padding: 15px;
+    background: $primary-backgroung;
+    position: relative;
+
+    &-1 
+    {
+        header 
+        {
+            font-weight: bold;
+            font-size: 30px;
+            color: $font-colors;
+        }
+
+        p 
+        {
+            position: relative;
+            margin-top: 20px;
+            font-family: $secondary-font;
+            font-size: 15px;
+            padding: 15px;
+            background: $white;
+            z-index: 1;
+            color: $secondary-font-color;
+            width: 300px;
+        }
+
+        img 
+        {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            z-index: 0 ;
+            max-width: 60%;
+        }
+    }
+
+    &-2 
+    {
+        color: $white;
+        background: $fouth-color;
+        height: 50%;
+        padding: 20px;
+
+        header 
+        {
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+}

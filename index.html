@@ -12,12 +12,13 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/e762997950.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./public/index.css" />
     </head>
 
     <body>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">SAM&CO</a>
+        <nav class="main-navbar navbar navbar-expand-lg navbar-light">
+            <a class="default-font" href="#">SAM&CO</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,17 +26,288 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Page d'accueille <span class="sr-only">(current)</span></a>
+                    <a class="nav-link default-font" href="#">Page d'accueille</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Service</a>
+                    <a class="nav-link default-font" href="#">Service</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link default-font" href="#">Prix</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link default-font" href="#">Avis client</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link default-font" href="#">Rendez-vous</a>
                 </li>
                 </ul>
             </div>
         </nav>
+
+        <section id="homepage" class="homepage">
+            <header>
+                Projet d'alarme antivol
+            </header>
+            <button class="button-default">Demander un devis</button>
+        </section>
+
+        <section id="service" class="service">
+            <div class="container">
+                <div class="row">
+                    <article class="service-article col-md-4">
+                        <i class="fas fa-euro-sign"></i>
+                        <h1>Projet et documents à partir de 50 000 euro.</h1>
+                        <p>
+                            On vous garantis la realisetion d'une documentation clair et respectant les normes du metier
+                            a un prix tres avantageux
+                        </p>
+                    </article>
+                    <article class="service-article col-md-4">
+                        <i class="fab fa-facebook-messenger"></i>
+                        <h1>Contrôle total sans "angles morts"</h1>
+                        <p>
+                            Notre service est repute pour etre clair et sans ambiguite, c'est grace a cela que notre 
+                            service connait un telle succes
+                        </p>
+                    </article>
+                    <article class="service-article col-md-4">
+                        <i class="fas fa-thumbs-up"></i>
+                        <h1>Satisfait ou Rembourser</h1>
+                        <p>
+                            Si apres notre travail vous n'etes pas satisfait du produit pas de probleme 
+                            nous vous rembourserons l'integralite de votre depence. 
+                            Ici le client est roi!!!
+                        </p>
+                    </article>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="aboutus" class="aboutus">
+            <div class="container">
+                <div class="row">
+                    <section class="aboutus-1 col-md-7">
+                        <header>Pourquoi<br/> SAM&CO?</header>
+                        <hr class="blue-line" /> 
+                        <p>
+                            SAM&CO est une jeune et dynamique entreprise, avec une equipe passionner et perseverant 
+                            c'est pour cela qu'investir dans SAM&CO c'est investir dans le futur
+                        </p>
+                        <button class="button-default">Tout sur nous</button>
+                        <img src="./image/workplace-1245776_1920.jpg" class="rounded img-thumbnail" alt="..." />
+                    </section>
+
+                    <section class="aboutus-2 col-md-5">
+                        <header>Un Produit De Qualite</header>
+                        <p>
+                            Nos disposons de produits a la pointe de la technologie, ainsi que d'une equipe surqualifier 
+                            qui pourrons repondre a toute vos attentes
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section id="offer">
+            <header class="title">Nos Services</header>
+            <hr class="blue-line line-center" /> 
+            <div>
+                <div class="row">
+                    <article class="offer col-md-6">
+                        <section class="offer-details default-background no-reverse">
+                            <header>Nous sélectionnons les composants</header>
+                            <p>
+                                Nous prenons en compte le type d'objet, le mode et les conditions de travail. 
+                                Par exemple: pour les cliniques vétérinaires et les hôtels zoos, nous installons 
+                                des capteurs avec protection contre les animaux.
+                            </p>
+                        </section>
+                        <img  src="./image/engineer-2558705_1920.jpg" alt="..." />
+                    </article>
+                    <article class="offer col-md-6">
+                        <section class="offer-details marron no-reverse">
+                            <header>Définir les zones de contrôle</header>
+                            <p>
+                                Nous plaçons les détecteurs selon le schéma - conformément aux mesures et dessins de l'objet. 
+                                Le système contrôle l'ensemble du territoire sans angles morts.
+                            </p>
+                        </section>
+                        <img  src="./image/engineer-4925118_1920.jpg" alt="..." />
+                    </article>
+                    <article class="offer invert col-md-6">
+                        <section class="offer-details pink reverse">
+                            <header>Intégrer</header>
+                            <p>
+                                Combinez avec les alarmes incendie, la vidéosurveillance, les systèmes de contrôle d'accès - en option.
+                            </p>
+                        </section>
+                        <img  src="./image/engineer-4941359_1920.jpg" alt="..." />
+                    </article>
+                    <article class="offer invert col-md-6">
+                        <section class="offer-details blue reverse">
+                            <header>Coût communiquer à l'avance</header>
+                            <p>
+                                Vous savez combien coûte l'équipement et l'installation - 
+                                nous informons le montant total avant le début des travaux.
+                            </p>
+                        </section>
+                        <img  src="./image/cash-2259076_640.jpg" alt="..." />
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="part4">
+                <header class="title">En plus</header>
+                <hr class="blue-line line-center" /> 
+                <div>
+                  <div class="list-group item-panel" id="list-tab" role="tablist">
+                    <a id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><i class="fas fa-handshake"></i></a>
+                    <a id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile"><i class="fas fa-money-bill-wave"></i></a>
+                    <a id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages"><i class="fas fa-sort-numeric-up-alt"></i></a>
+                  </div>
+                </div>
+                <div>
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                        <article class="item">
+                            <section class="item-description">
+                                <header>Un service client 24h/24h</header>
+                                <p>
+                                    Notre equipe sera a votre disposition qu'elle que soit le temps. 
+                                    Si vous rencontrez un quelconque probleme, n'hesitez pas une seconde 
+                                    communiquer le avec nous, nous vous aiderons.
+                                </p>
+                                <button class="button-default">Nous contacter</button>
+                            </section>
+                        </article>
+                    </div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                        <article class="item">
+                            <section class="item-description">
+                                <header>Suivi apres installation</header>
+                                <p>
+                                    Une fois le systeme installer, nous garantisson un suivi 
+                                    client gratuit de 1 an. Si le systeme rencontre un probleme 
+                                    il sera alors repare et/ou remplacer sans frais supplementaire 
+                                    de votre part 
+                                </p>
+                                <button class="button-default">Nous contacter</button>
+                            </section>
+                        </article>
+                    </div>
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                        <article class="item">
+                            <section class="item-description">
+                                <header>100% Guarantie ou renbouser</header>
+                                <p>
+                                    Vous pouvez faire marche arriere a tout moment !! 
+                                    Si pendant une periode de 1 mois vous n'etes plus satisfait 
+                                    le systeme sera enlever et votre argent rendu sans aucune 
+                                    question.
+                                </p>
+                                <button class="button-default">Nous contacter</button>
+                            </section>
+                        </article>
+                    </div>
+                </div>
+              </div>
+              <section class="convaic">
+                  <h1>Alors convaicu ?!</h1>
+                  <button class="button-default">Prevoir un rendez-vous</button>
+              </section>
+              <section class="contact">
+                  <header>
+                      <h1>Une question?</h1>
+                      <p>Alors contactez nous</p>
+                  </header>
+                  <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <button type="button" class="btn btn-primary">Submit</button>
+                  </form>
+              </section>
+        </section>
+
+        <section class="price">
+            <header class="title">Nos frais</header>
+            <hr class="blue-line line-center" /> 
+            <div class="container">
+                <div class="row">
+                    <article class="price-item col-md-4">
+                        <h1>STANDART</h1>
+                        <h2>99$</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                          </ul>
+                    </article>
+                    <article class="price-item col-md-4">
+                        <h1>MEDIUM</h1>
+                        <h2>599$</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                          </ul>
+                    </article>
+                    <article class="price-item col-md-4">
+                        <h1>EXPERT</h1>
+                        <h2>999$</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                          </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="device">
+            <header class="title">Reserver un rendez-vous</header>
+            <hr class="blue-line line-center" /> 
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Name</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Surname</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Telephone</label>
+                    <input type="tel" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Date</label>
+                    <input type="date" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <button type="button" class="button-default">Submit</button>
+            </form>
+        </section>
+
+        <footer>
+            <h1>Tous droits reservee sur ce site</h1>
+            <p>@copyrith Mahamadou Samake</p>
+        </footer>
 
     </body>
 </html>
